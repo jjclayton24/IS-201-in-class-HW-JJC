@@ -1,0 +1,75 @@
+
+h1{
+font-size:36px;
+color:white;
+text-align:center;
+}
+body{
+    background-color: black;
+    color: yellow;
+}
+h2{
+    color:navy;
+        text-decoration: underline;
+        font-style:italic;
+        font-weight:bold;
+    
+}
+
+p{
+    font-size:25px;
+}
+
+#pinkparagraph{
+    color:pink;
+}
+
+.pretty{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ugly{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header {
+    z-index: 10px;
+}
+
+.common {
+    background-color: rgb(10, 116, 209);
+    border: 2px solid white;
+    position: absolute;
+}
+
+.left {
+    top: 80px;
+    left: 15px;
+    width: 100px;
+    bottom: 40px;
+}
+
+.main {
+    top: 90px;
+    height: 80px;
+    left: 130px;
+    right: 140px;
+    bottom: 40px;
+}
+
+.right {
+    top: 115px;
+    right: 25px;
+    width: 10px;
+    height: 100px;
+}
+
+.footer {
+    bottom: 10px;
+    height: 200px;
+    left: 15px;
+    right: 25px;
+    position: fixed;
+    background-color: rgb(10, 116, 209);
+    border: 2px solid white;
+}
